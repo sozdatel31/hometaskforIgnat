@@ -1,0 +1,11 @@
+.someClass {
+border: 5px solid #bbffbb;
+outline: none;
+}
+.error {
+    border: 5px solid red;
+    outline: none;
+}
+.errortext {
+    color: red;
+}
