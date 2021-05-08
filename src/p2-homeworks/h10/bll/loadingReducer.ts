@@ -1,5 +1,6 @@
 const initState = {
     isLoading: false
+
 };
 
 
@@ -9,7 +10,7 @@ export const loadingReducer = (state = initState, action: ActionType): { isLoadi
             return {...state, isLoading: action.valueLoading};
         }
         default:
-            return {...state};
+            return state;
     }
 };
 export type ActionType = {
